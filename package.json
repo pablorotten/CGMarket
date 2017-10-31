@@ -1,0 +1,20 @@
+{
+  "name": "cgmarket",
+  "version": "1.0.0",
+  "description": "test for nexus",
+  "main": "index.html",
+  "scripts": {
+  },
+  "dependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablorotten/CGMarket.git"
+  },
+  "author": "pablorotten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pablorotten/CGMarket/issues"
+  },
+  "homepage": "https://github.com/pablorotten/CGMarket#readme"
+}
