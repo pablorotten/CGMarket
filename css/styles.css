@@ -1,4 +1,13 @@
-.select {
-  height: 100px;
-  width: 100px;
+.navbar {
+  background-image: none;
+  background-color: #3f444c;
+  border-color: #3f444c;
+}
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand > img {
+  height: 100%;
+  padding: 15px;
+  width: auto;
 }
