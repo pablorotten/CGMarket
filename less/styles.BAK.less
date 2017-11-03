@@ -1,0 +1,90 @@
+// out: ../css/styles.css, sourcemap: true, compress: false
+
+@colorNavbarBackground: #3f444c;
+@colorLogoRed: #e63250;
+@colorNavbarText: #c8c8c8;
+
+@font-face {
+    font-family: CGMarket-tahoma;
+    src: url("/fonts/tahoma.ttf");
+}
+
+
+body {
+  padding-top: 70px;
+}
+
+.navbar{
+  background-image: none;
+  background-color: @colorNavbarBackground;
+  border-color: @colorNavbarBackground;
+  height: 80px;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar-brand>img {
+  height: 125%;
+  padding: 15px;
+  width: auto;
+}
+
+.nav.navbar-nav.navbar-right li a {
+    color: @colorNavbarText;
+}
+
+ul.dropdown-cart{
+    min-width:250px;
+}
+ul.dropdown-cart li .item{
+    display:block;
+    padding:3px 10px;
+    margin: 3px 0;
+}
+ul.dropdown-cart li .item:hover{
+    background-color:#f3f3f3;
+}
+ul.dropdown-cart li .item:after{
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+ul.dropdown-cart li .item-left{
+    float:left;
+}
+ul.dropdown-cart li .item-left img,
+ul.dropdown-cart li .item-left span.item-info{
+    float:left;
+}
+dropdown-cart li .item-left span.item-info{
+    margin-left:10px;
+}
+ul.dropdown-cart li .item-left span.item-info span{
+    display:block;
+}
+ul.dropdown-cart li .item-right{
+    float:right;
+}
+ul.dropdown-cart li .item-right button{
+    margin-top:14px;
+}
+ul.dropdown-cart li .item-left img{
+  height: 50px;
+  width: 50px;
+}
+
+.shopping-cart-item .item-info{
+  float: right;
+  margin-left: 10px;
+}
+.shopping-cart-item .badge{
+    display: block;
+    background-color: @colorLogoRed;
+    width: 30px;
+}
