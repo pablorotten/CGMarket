@@ -6,6 +6,9 @@
 .text-red {
   color: #e63250;
 }
+.text-grey3 {
+  color: #646464;
+}
 body {
   padding-top: 70px;
 }
@@ -488,4 +491,131 @@ ul.dropdown-cart li .item-right button {
 .container-fluid.top-design .btn.btn-hero.btn-red {
   background-color: #e63250;
   color: white;
+}
+/********************************/
+/*          Latest news         */
+/********************************/
+.latest-news {
+  padding: 0px 50px;
+  margin-bottom: 70px;
+}
+.latest-news h2 {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+.latest-news .new {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.latest-news .new .thumbnail {
+  padding: 0;
+  border-radius: 0;
+  -webkit-box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.5);
+}
+.latest-news .new .thumbnail .caption-full {
+  padding: 9px;
+  color: #333;
+}
+.latest-news .new .thumbnail .img-container {
+  position: relative;
+  display: inline-block;
+}
+.latest-news .new .thumbnail .img-container img {
+  width: 100%;
+  height: 285px;
+}
+.latest-news .new .thumbnail .date-widget {
+  top: 40px;
+  right: 20px;
+  width: 49px;
+  height: 58px;
+  margin-top: -25px;
+  position: absolute;
+  background-color: white;
+  display: block;
+}
+.latest-news .new .thumbnail .date-widget h4 {
+  font-family: 'Open Sans';
+  margin-top: 0px;
+  font-size: 22px;
+}
+.latest-news .new .thumbnail .date-widget h5 {
+  font-family: "PT Sans";
+  margin-bottom: 0px;
+}
+.latest-news .new .thumbnail .caption {
+  padding-bottom: 20px;
+  padding-left: 20px;
+  font-family: "PT Sans";
+  font-size: 17px;
+}
+.latest-news .new .thumbnail .caption h4 {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 16px;
+  color: black;
+  margin-bottom: 15px;
+}
+.latest-news .new .thumbnail .caption h5 {
+  font-family: 'PT Sans';
+  color: #969696;
+}
+.latest-news .new .thumbnail .caption p {
+  font-family: 'PT Sans';
+  font-size: 14px;
+  color: black;
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+.latest-news .new .thumbnail .caption a {
+  font-family: 'PT Sans';
+  font-size: 14px;
+  color: black;
+}
+.latest-news .new .thumbnail .caption a i {
+  font-size: 10px;
+}
+/********************************/
+/*          Categories          */
+/********************************/
+.container-fluid.categories {
+  background-image: url("/img/categories-background.png");
+  padding-top: 50px;
+  padding-bottom: 14px;
+  margin-bottom: 70px;
+  box-shadow: 0 0 5px 5px #e6e6e6;
+}
+.container-fluid.categories .title {
+  margin-bottom: 50px;
+}
+.container-fluid.categories .title h2 {
+  font-family: "Open Sans";
+  font-weight: bold;
+  color: white;
+}
+.container-fluid.categories .title h4 {
+  font-family: "Open Sans";
+  font-weight: bold;
+  color: #b4b4b4;
+  font-size: 14px;
+}
+.container-fluid.categories .category {
+  height: 480px;
+}
+.container-fluid.categories .category.category-clear {
+  background-color: #b3b3b3;
+}
+.container-fluid.categories .category.category-grey {
+  background-color: #595959;
+}
+.container-fluid.categories .category.category-dark {
+  background-color: #343434;
+}
+.container-fluid.categories .category .section-content {
+  padding-top: 45%;
+  color: #e6e6e6;
+  font-family: 'Open Sans';
 }

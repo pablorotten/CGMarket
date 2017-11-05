@@ -9,6 +9,11 @@
 @colorGrey: #b4b4b4;
 @colorGrey2: #e6e6e6;
 @colorGrey3: #646464;
+@colorCategoryDark: #343434;
+@colorCategoryGrey: #595959;
+@colorCategoryClear: #b3b3b3;
+
+
 
 //Fonts
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
@@ -23,6 +28,9 @@
 
 .text-red{
   color: @colorCgmarketRed;
+}
+.text-grey3{
+  color: @colorGrey3;
 }
 
 body {
@@ -447,7 +455,6 @@ ul.dropdown-cart{
   }
 }
 
-
 /********************************/
 /*          Top Design          */
 /********************************/
@@ -527,6 +534,138 @@ ul.dropdown-cart{
     &.btn-red{
       background-color: @colorCgmarketRed;
       color: white;
+    }
+  }
+}
+
+/********************************/
+/*          Latest news         */
+/********************************/
+.latest-news{
+  padding: 0px 50px;
+  margin-bottom: 70px;
+  h2{
+    font-family: 'Open Sans';
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  .new{
+    padding-left: 10px;
+    padding-right: 10px;
+    .thumbnail{
+      padding: 0;
+      border-radius: 0;
+      -webkit-box-shadow: 0 2px 2px -2px rgba(0,0,0,0.50);
+      -moz-box-shadow: 0 2px 2px -2px rgba(0,0,0,0.50);
+      box-shadow: 0 2px 2px -2px rgba(0,0,0,0.50);
+      .caption-full {
+        padding: 9px;
+        color: #333;
+      }
+      .img-container{
+      	position: relative;
+      	display: inline-block;
+        img {
+          width: 100%;
+          height: 285px;
+        }
+      }
+      .date-widget{
+      	top:40px;
+        right: 20px;
+      	width: 49px;
+      	height: 58px;
+        margin-top: -25px;
+        position: absolute;
+        background-color: white;
+        display:block;
+        h4{
+          font-family: 'Open Sans';
+          margin-top: 0px;
+          font-size: 22px;
+        }
+        h5{
+          font-family: "PT Sans";
+          margin-bottom: 0px;
+        }
+      }
+      .caption {
+        padding-bottom: 20px;
+        padding-left: 20px;
+        font-family: "PT Sans";
+        font-size: 17px;
+        h4{
+          font-family: 'Open Sans';
+          font-weight: bold;
+          font-size: 16px;
+          color: black;
+          margin-bottom: 15px;
+        }
+        h5{
+          font-family: 'PT Sans';
+          // font-weight: bold;
+          // font-size: 17px;
+          color: @colorNavbarText2;
+          // margin-bottom: 15px;
+        }
+        p{
+          font-family: 'PT Sans';
+          font-size: 14px;
+          color: black;
+          opacity: 0.7;
+          margin-bottom: 20px;
+        }
+        a{
+          font-family: 'PT Sans';
+          font-size: 14px;
+          color: black;
+          i{
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/********************************/
+/*          Categories          */
+/********************************/
+.container-fluid.categories{
+  background-image: url("/img/categories-background.png");
+  padding-top: 50px;
+  padding-bottom: 14px;
+  margin-bottom: 70px;
+  box-shadow: 0 0 5px 5px @colorGrey2;
+  .title{
+    margin-bottom: 50px;
+    h2{
+      font-family: "Open Sans";
+      font-weight: bold;
+      color: white;
+    }
+    h4{
+      font-family: "Open Sans";
+      font-weight: bold;
+      color: @colorGrey;
+      font-size: 14px;
+    }
+  }
+  .category{
+    height: 480px;
+    &.category-clear{
+      background-color: @colorCategoryClear;
+    }
+    &.category-grey{
+      background-color: @colorCategoryGrey;
+    }
+    &.category-dark{
+      background-color: @colorCategoryDark;
+    }
+    .section-content {
+      padding-top: 45%;
+      color: @colorGrey2;
+      font-family: 'Open Sans';
     }
   }
 }
