@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
 @font-face {
   font-family: CGMarket-tahoma;
   src: url("/fonts/tahoma.ttf");
@@ -264,18 +265,19 @@ ul.dropdown-cart li .item-right button {
 /********************************/
 /*          Four Icons          */
 /********************************/
-.jumbotron.four-icon {
+.container-fluid.four-icon {
   background-image: url("/img/4-icon-background.png");
   padding-top: 14px;
   padding-bottom: 14px;
+  margin-bottom: 70px;
 }
-.jumbotron.four-icon .img-center {
+.container-fluid.four-icon .img-center {
   margin: 0 auto;
 }
-.jumbotron.four-icon .img-circle {
+.container-fluid.four-icon .img-circle {
   width: 60px;
 }
-.jumbotron.four-icon .glyphicon-ring {
+.container-fluid.four-icon .glyphicon-ring {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -284,18 +286,120 @@ ul.dropdown-cart li .item-right button {
   display: inline-table;
   text-align: center;
 }
-.jumbotron.four-icon .glyphicon-ring img {
+.container-fluid.four-icon .glyphicon-ring img {
   margin-top: 20px;
 }
-.jumbotron.four-icon h3 {
+.container-fluid.four-icon h3 {
   font-family: 'Libre Baskerville';
   font-style: italic;
   font-size: 25px;
   color: white;
 }
-.jumbotron.four-icon p {
+.container-fluid.four-icon p {
   font-family: 'Tahoma';
   font-size: 15px;
   color: white;
   opacity: 0.7;
+}
+/********************************/
+/*         Tab Products         */
+/********************************/
+.tab-products {
+  padding: 0px 50px;
+}
+.tab-products .products-controllers {
+  margin-bottom: 30px;
+}
+.tab-products .products-controllers .btn.btn-hero {
+  background-image: none;
+  background-color: transparent;
+  border-radius: 3px;
+  display: inline-block;
+  font-family: "PT Sans";
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  line-height: 1.42857143;
+  margin: 0px 8px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.tab-products .products-controllers .btn.btn-hero.btn-lg {
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 3px;
+  padding: 15px 35px;
+}
+.tab-products .products-controllers .btn.btn-hero.btn-red {
+  background-color: #e63250;
+  color: white;
+}
+.tab-products .products-controllers .btn.btn-hero.btn-outline {
+  background: none;
+  border: 1px solid #b4b4b4;
+  color: #b4b4b4;
+}
+.tab-products .products-controllers .small-buttons {
+  padding-right: 0px;
+}
+.tab-products .products-controllers .btn-separator:after {
+  content: ' ';
+  display: block;
+  float: left;
+  background: #e6e6e6;
+  margin: 0 10px;
+  height: 50px;
+  width: 2px;
+}
+.tab-products .product {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.tab-products .product .thumbnail {
+  padding: 0;
+  border-radius: 0;
+  -webkit-box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.5);
+}
+.tab-products .product .thumbnail .caption-full {
+  padding: 9px;
+  color: #333;
+}
+.tab-products .product .thumbnail img {
+  width: 100%;
+  height: 210px;
+}
+.tab-products .product .thumbnail .caption {
+  padding-bottom: 0px;
+  padding-left: 20px;
+  font-family: "PT Sans";
+  font-size: 17px;
+}
+.tab-products .product .thumbnail .caption a {
+  margin-bottom: 0px;
+  white-space: nowrap;
+  color: black;
+}
+.tab-products .product .thumbnail .product-ratings {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.tab-products .product .thumbnail .product-ratings .product-rating {
+  color: #e63250;
+  margin-top: 4px;
+}
+.tab-products .product .thumbnail .product-ratings .product-rating .fa {
+  display: table-cell;
+}
+.tab-products .product .thumbnail .product-ratings .product-price {
+  font-family: "Open Sans";
+  font-size: 17px;
+  margin-bottom: 10px;
 }

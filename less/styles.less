@@ -6,13 +6,19 @@
 @colorCgmarketRed: #e63250;
 @colorNavbarText: #c8c8c8;
 @colorNavbarText2: #969696;
+@colorGrey: #b4b4b4;
+@colorGrey2: #e6e6e6;
+
+//Fonts
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+// font-family: 'PT Sans', sans-serif;
 
 // @fontNavbar
 @font-face {
     font-family: CGMarket-tahoma;
     src: url("/fonts/tahoma.ttf");
 }
-
 
 body {
   padding-top: 70px;
@@ -254,10 +260,7 @@ ul.dropdown-cart{
       }
       &.btn-outline{
       	background: none;
-      	// padding: 12px 22px;
       	border: 1px solid white;
-      	// color: #0099cc;
-
       }
     }
 }
@@ -298,10 +301,11 @@ ul.dropdown-cart{
 /********************************/
 /*          Four Icons          */
 /********************************/
-.jumbotron.four-icon{
+.container-fluid.four-icon{
   background-image: url("/img/4-icon-background.png");
   padding-top: 14px;
   padding-bottom: 14px;
+  margin-bottom: 70px;
   .img-center {
   	margin: 0 auto;
   }
@@ -331,5 +335,108 @@ ul.dropdown-cart{
     font-size: 15px;
     color: white;
     opacity: 0.7;
+  }
+}
+
+/********************************/
+/*         Tab Products         */
+/********************************/
+.tab-products{
+  padding: 0px 50px;
+  .products-controllers{
+    margin-bottom: 30px;
+    .btn.btn-hero{
+      background-image: none;
+    	background-color: transparent;
+      border-radius: 3px;
+      display: inline-block;
+      font-family: "PT Sans";
+      font-size: 20px;
+      font-weight: bold;
+      letter-spacing: 3px;
+      line-height: 1.42857143;
+      margin: 0px 8px;
+      text-align: center;
+      vertical-align: middle;
+      white-space: nowrap;
+      cursor: pointer;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+      &.btn-lg {
+        font-size: 18px;
+        line-height: 1.33;
+        border-radius: 3px;
+        padding: 15px 35px;
+      }
+      &.btn-red{
+        background-color: @colorCgmarketRed;
+        color: white;
+      }
+      &.btn-outline{
+      	background: none;
+      	border: 1px solid @colorGrey;
+        color: @colorGrey;
+      }
+    }
+    .small-buttons{
+      padding-right: 0px;
+    }
+    .btn-separator:after {
+      content: ' ';
+      display: block;
+      float: left;
+      background: @colorGrey2;
+      margin: 0 10px;
+      height: 50px;
+      width: 2px;
+    }
+  }
+  .product{
+    padding-left: 10px;
+    padding-right: 10px;
+    .thumbnail{
+      padding: 0;
+      border-radius: 0;
+      -webkit-box-shadow: 0 2px 2px -2px rgba(0,0,0,0.50);
+      -moz-box-shadow: 0 2px 2px -2px rgba(0,0,0,0.50);
+      box-shadow: 0 2px 2px -2px rgba(0,0,0,0.50);
+      .caption-full {
+        padding: 9px;
+        color: #333;
+      }
+      img {
+        width: 100%;
+        height: 210px;
+      }
+      .caption {
+        padding-bottom: 0px;
+        padding-left: 20px;
+        font-family: "PT Sans";
+        font-size: 17px;
+        a{
+          margin-bottom: 0px;
+          white-space: nowrap;
+          color: black;
+        }
+      }
+      .product-ratings{
+        padding-right: 20px;
+        padding-left: 20px;
+        .product-rating{
+          color: @colorCgmarketRed;
+          margin-top: 4px;
+          .fa{
+            display: table-cell;
+          }
+        }
+        .product-price{
+          font-family: "Open Sans";
+          font-size: 17px;
+          margin-bottom: 10px;
+        }
+      }
+    }
   }
 }

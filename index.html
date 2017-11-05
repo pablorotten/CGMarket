@@ -1,22 +1,17 @@
 <!doctype html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>CGMARKET</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet"> -->
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <link rel="stylesheet" href="css/styles.css">
-        <link rel="stylesheet" href="css/font-awesome.min.css">
-
-    </head>
-    <body>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>CGMARKET</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+  </head>
+  <body>
     <!-- Main navbar -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
@@ -52,7 +47,6 @@
                       <img src="img/arale.jpg" alt="" />
                       <span class="item-info">
                         <span>Item name</span>
-                        <span>23$</span>
                       </span>
                     </span>
                     <span class="item-right">
@@ -66,7 +60,6 @@
                       <img src="img/arale.jpg" alt="" />
                       <span class="item-info">
                         <span>Item name</span>
-                        <span>23$</span>
                       </span>
                     </span>
                     <span class="item-right">
@@ -137,7 +130,7 @@
         </div>
       </div>
     </nav>
-    <!-- Carousel -->
+    <!-- Banner -->
     <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
       <!-- Overlay -->
       <div class="overlay"></div>
@@ -182,7 +175,8 @@
         </div>
       </div>
     </div>
-    <div class="jumbotron four-icon">
+    <!-- Four icon -->
+    <div class="container-fluid four-icon">
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-sm-6 text-center">
@@ -232,47 +226,286 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <!-- Example row of columns -->
+    <!-- Tab products -->
+    <div class="container-fluid tab-products">
+      <div class="row products-controllers">
+        <!-- <div class="col-md-12"> -->
+          <div class="container col-md-6 col-md-offset-3 text-center">
+            <button class="btn btn-hero btn-outline btn-lg " role="button">NEW IN!</button>
+            <button class="btn btn-hero btn-outline btn-lg" role="button">SPECIAL</button>
+            <button class="btn btn-hero btn-red btn-lg" role="button">COLLECTION</button>
+            <button class="btn btn-hero btn-outline btn-lg" role="button">FEATURED</button>
+          </div>
+          <div class="container col-md-3 pull-right small-buttons">
+            <button class="btn btn-hero pull-right" role="button"><img src="img/products-thumb-newest.png" alt="Newest"></button>
+            <button class="btn btn-hero pull-right" role="button"><img src="img/products-thumb-az.png" alt="AZ"></button>
+            <button class="btn btn-hero pull-right" role="button"><img src="img/products-thumb-popular.png" alt="Popular"></button>
+            <span class="btn-separator  pull-right"></span>
+            <button class="btn btn-hero pull-right" role="button"><img src="img/products-thumb-small.png" alt="Small"></button>
+            <button class="btn btn-hero pull-right" role="button"><img src="img/products-thumb-big.png" alt="Big"></button>
+          </div>
+        <!-- </div> -->
+      </div>
       <div class="row">
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        <div class="col-md-12">
+          <div class="row">
+            <div class="col-sm-6 col-lg-2 col-md-4 product">
+              <div class="thumbnail">
+                <img src="http://via.placeholder.com/280x210" alt="">
+                <div class="caption">
+                  <a href="#">Creature Walk</a>
+                </div>
+                <div class="product-ratings">
+                  <p class="pull-right product-price"><strong>$450</strong></p>
+                  <p class="pull-left product-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-2 col-md-4 product">
+              <div class="thumbnail">
+                <img src="http://via.placeholder.com/280x210" alt="">
+                <div class="caption">
+                  <a href="#">Creature Walk</a>
+                </div>
+                <div class="product-ratings">
+                  <p class="pull-right product-price"><strong>$450</strong></p>
+                  <p class="pull-left product-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-2 col-md-4 product">
+              <div class="thumbnail">
+                <img src="http://via.placeholder.com/280x210" alt="">
+                <div class="caption">
+                  <a href="#">Creature Walk</a>
+                </div>
+                <div class="product-ratings">
+                  <p class="pull-right product-price"><strong>$450</strong></p>
+                  <p class="pull-left product-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-2 col-md-4 product">
+              <div class="thumbnail">
+                <img src="http://via.placeholder.com/280x210" alt="">
+                <div class="caption">
+                  <a href="#">Creature Walk</a>
+                </div>
+                <div class="product-ratings">
+                  <p class="pull-right product-price"><strong>$450</strong></p>
+                  <p class="pull-left product-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-2 col-md-4 product">
+              <div class="thumbnail">
+                <img src="http://via.placeholder.com/280x210" alt="">
+                <div class="caption">
+                  <a href="#">Creature Walk</a>
+                </div>
+                <div class="product-ratings">
+                  <p class="pull-right product-price"><strong>$450</strong></p>
+                  <p class="pull-left product-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-2 col-md-4 product">
+              <div class="thumbnail">
+                <img src="http://via.placeholder.com/280x210" alt="">
+                <div class="caption">
+                  <a href="#">Creature Walk</a>
+                </div>
+                <div class="product-ratings">
+                  <p class="pull-right product-price"><strong>$450</strong></p>
+                  <p class="pull-left product-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-2 col-md-4 product">
+              <div class="thumbnail">
+                <img src="http://via.placeholder.com/280x210" alt="">
+                <div class="caption">
+                  <a href="#">Creature Walk</a>
+                </div>
+                <div class="product-ratings">
+                  <p class="pull-right product-price"><strong>$450</strong></p>
+                  <p class="pull-left product-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-2 col-md-4 product">
+              <div class="thumbnail">
+                <img src="http://via.placeholder.com/280x210" alt="">
+                <div class="caption">
+                  <a href="#">Creature Walk</a>
+                </div>
+                <div class="product-ratings">
+                  <p class="pull-right product-price"><strong>$450</strong></p>
+                  <p class="pull-left product-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-2 col-md-4 product">
+              <div class="thumbnail">
+                <img src="http://via.placeholder.com/280x210" alt="">
+                <div class="caption">
+                  <a href="#">Creature Walk</a>
+                </div>
+                <div class="product-ratings">
+                  <p class="pull-right product-price"><strong>$450</strong></p>
+                  <p class="pull-left product-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-2 col-md-4 product">
+              <div class="thumbnail">
+                <img src="http://via.placeholder.com/280x210" alt="">
+                <div class="caption">
+                  <a href="#">Creature Walk</a>
+                </div>
+                <div class="product-ratings">
+                  <p class="pull-right product-price"><strong>$450</strong></p>
+                  <p class="pull-left product-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-2 col-md-4 product">
+              <div class="thumbnail">
+                <img src="http://via.placeholder.com/280x210" alt="">
+                <div class="caption">
+                  <a href="#">Creature Walk</a>
+                </div>
+                <div class="product-ratings">
+                  <p class="pull-right product-price"><strong>$450</strong></p>
+                  <p class="pull-left product-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-lg-2 col-md-4 product">
+              <div class="thumbnail">
+                <img src="http://via.placeholder.com/280x210" alt="">
+                <div class="caption">
+                  <a href="#">Creature Walk</a>
+                </div>
+                <div class="product-ratings">
+                  <p class="pull-right product-price"><strong>$450</strong></p>
+                  <p class="pull-left product-rating">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                  </p>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
+    <!-- Top design -->
+    
 
-      <hr>
 
-      <footer>
-        <p>&copy; Company 2015</p>
-      </footer>
-    </div> <!-- /container -->
-      <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-      <script>window.jQuery || document.write('<script src="./js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+    <hr>
 
-      <script src="js/vendor/bootstrap.min.js"></script>
+    <footer>
+      <p>&copy; Company 2015</p>
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="./js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
 
-      <script src="js/main.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
 
-      <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-      <script>
-          (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-          function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-          e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-          e.src='//www.google-analytics.com/analytics.js';
-          r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-          ga('create','UA-XXXXX-X','auto');ga('send','pageview');
-      </script>
-    </body>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+    </script>
+  </body>
 </html>
