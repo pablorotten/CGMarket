@@ -3,6 +3,9 @@
   font-family: CGMarket-tahoma;
   src: url("/fonts/tahoma.ttf");
 }
+.text-red {
+  color: #e63250;
+}
 body {
   padding-top: 70px;
 }
@@ -306,6 +309,7 @@ ul.dropdown-cart li .item-right button {
 /********************************/
 .tab-products {
   padding: 0px 50px;
+  margin-bottom: 70px;
 }
 .tab-products .products-controllers {
   margin-bottom: 30px;
@@ -402,4 +406,86 @@ ul.dropdown-cart li .item-right button {
   font-family: "Open Sans";
   font-size: 17px;
   margin-bottom: 10px;
+}
+/********************************/
+/*          Top Design          */
+/********************************/
+.container-fluid.top-design {
+  background-image: url("/img/top-design-background.png");
+  padding-top: 50px;
+  padding-bottom: 14px;
+  margin-bottom: 70px;
+  box-shadow: 0 0 5px 5px #e6e6e6;
+}
+.container-fluid.top-design h2 {
+  font-family: "Open Sans";
+  font-weight: bold;
+}
+.container-fluid.top-design h4 {
+  font-family: "Tahoma";
+  font-size: 15px;
+  color: #646464;
+}
+.container-fluid.top-design .designers {
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.container-fluid.top-design .designers .media-body {
+  padding-top: 20px;
+}
+.container-fluid.top-design .designers .img-center {
+  margin: 0 auto;
+}
+.container-fluid.top-design .designers .img-circle {
+  width: auto;
+  max-width: 150px;
+}
+.container-fluid.top-design .designers h4 {
+  font-family: 'Open Sans';
+  font-weight: bold;
+  font-size: 17px;
+  color: black;
+  margin-bottom: 15px;
+}
+.container-fluid.top-design .designers p {
+  font-family: 'Tahoma';
+  font-size: 14px;
+  color: black;
+  opacity: 0.7;
+  margin-bottom: 20px;
+}
+.container-fluid.top-design .designers a {
+  font-family: 'Tahoma';
+  font-size: 14px;
+  color: black;
+}
+.container-fluid.top-design .designers a i {
+  font-size: 10px;
+}
+.container-fluid.top-design .btn.btn-hero {
+  background-image: none;
+  background-color: transparent;
+  border-radius: 3px;
+  display: inline-block;
+  font-family: "Open Sans";
+  font-weight: bold;
+  margin: 0px 8px;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.container-fluid.top-design .btn.btn-hero.btn-lg {
+  font-size: 14px;
+  line-height: 1.33;
+  border-radius: 3px;
+  padding: 15px 35px;
+}
+.container-fluid.top-design .btn.btn-hero.btn-red {
+  background-color: #e63250;
+  color: white;
 }
