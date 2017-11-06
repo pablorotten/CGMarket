@@ -131,46 +131,43 @@
       </div>
     </nav>
     <!-- Banner -->
-    <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
-      <!-- Overlay -->
-      <div class="overlay"></div>
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        <!-- slide 1 -->
-        <div class="item slides active">
-          <div class="slide-1"></div>
-          <div class="hero">
-            <hgroup>
+    <header class="business-header">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="hero text-center">
+              <hgroup>
                 <h1>DISCOVER THE EXPERIENCE</h1>
                 <h2>EVERYBODY IS TALKING ABOUT</h2>
-                <h3>Register in 60 seconds to win a smartphone</h3>
-            </hgroup>
-            <button class="btn btn-hero btn-red btn-lg" role="button">REGISTER</button>
-            <button class="btn btn-hero btn-outline btn-lg" role="button">LEARN MORE</button>
+                <h3>Register in <span id="countdown"></span> seconds to win a smartphone</h3>
+              </hgroup>
+              <button class="btn btn-hero btn-red btn-lg" role="button">REGISTER</button>
+              <button class="btn btn-hero btn-outline btn-lg" role="button">LEARN MORE</button>
+            </div>
           </div>
         </div>
-        <div class="item slides">
-          <div class="slide-2"></div>
-          <div class="hero">
-            <hgroup>
-                <h1>DISCOVER THE EXPERIENCE</h1>
-                <h2>EVERYBODY IS TALKING ABOUT</h2>
-                <h3>Register in 60 seconds to win a smartphone</h3>
-            </hgroup>
-            <button class="btn btn-hero btn-red btn-lg" role="button">REGISTER</button>
-            <button class="btn btn-hero btn-outline btn-lg" role="button">LEARN MORE</button>
-          </div>
-        </div>
-        <div class="item slides">
-          <div class="slide-3"></div>
-          <div class="hero">
-            <hgroup>
-                <h1>DISCOVER THE EXPERIENCE</h1>
-                <h2>EVERYBODY IS TALKING ABOUT</h2>
-                <h3>Register in 60 seconds to win a smartphone</h3>
-            </hgroup>
-            <button class="btn btn-hero btn-red btn-lg" role="button">REGISTER</button>
-            <button class="btn btn-hero btn-outline btn-lg" role="button">LEARN MORE</button>
+      </div>
+    </header>
+    <div class="container">
+      <!-- Trigger the modal with a button -->
+      <button type="button" class="btn btn-info btn-lg" id="btnTrigger" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Bad Luck</h4>
+            </div>
+            <div class="modal-body">
+              <p>You missed an opportunity to win a smartphone</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
           </div>
         </div>
       </div>

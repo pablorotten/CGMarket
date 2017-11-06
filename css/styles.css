@@ -148,63 +148,43 @@ ul.dropdown-cart li .item-right button {
   background-color: #2d3136;
 }
 /********************************/
-/*       Fade Bs-carousel       */
+/*            Banner            */
 /********************************/
-.fade-carousel {
-  position: relative;
-  height: 77vh;
+.business-header {
+  height: 770px;
+  background: url('/img/slide-background.png') center center no-repeat scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
-.fade-carousel .carousel-inner .item {
-  height: 77vh;
-}
-.fade-carousel .carousel-indicators > li {
-  margin: 0 2px;
-  background-color: #f39c12;
-  border-color: #f39c12;
-  opacity: .7;
-}
-.fade-carousel .carousel-indicators > li.active {
-  width: 10px;
-  height: 10px;
-  opacity: 1;
-}
-/********************************/
-/*          Hero Headers        */
-/********************************/
-.hero {
-  position: absolute;
-  top: 42%;
-  left: 50%;
+.business-header .hero {
+  padding-top: 10%;
   z-index: 3;
   color: #fff;
   text-align: center;
   font-family: "Open Sans";
   text-shadow: 2px 2px 0 #000000;
-  -webkit-transform: translate3d(-50%, -50%, 0);
-  -moz-transform: translate3d(-50%, -50%, 0);
-  -ms-transform: translate3d(-50%, -50%, 0);
-  -o-transform: translate3d(-50%, -50%, 0);
-  transform: translate3d(-50%, -50%, 0);
 }
-.hero h1 {
+.business-header .hero h1 {
   font-size: 99.95px;
   font-weight: bold;
   margin: 0;
   padding: 0;
 }
-.hero h2 {
+.business-header .hero h2 {
   font-size: 58.95px;
   font-weight: bold;
   margin: 0;
   padding: 0;
   margin-bottom: 25px;
 }
-.hero h3 {
+.business-header .hero h3 {
   font-size: 19.99px;
   margin: 0;
   padding: 0;
 }
-.hero .btn.btn-hero {
+.business-header .hero .btn.btn-hero {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 3px;
@@ -224,53 +204,21 @@ ul.dropdown-cart li .item-right button {
   -ms-user-select: none;
   user-select: none;
 }
-.hero .btn.btn-hero.btn-lg {
+.business-header .hero .btn.btn-hero.btn-lg {
   font-size: 18px;
   line-height: 1.33;
   border-radius: 3px;
 }
-.hero .btn.btn-hero.btn-red {
+.business-header .hero .btn.btn-hero.btn-red {
   background-color: #e63250;
   border-color: #e63250;
 }
-.hero .btn.btn-hero.btn-outline {
+.business-header .hero .btn.btn-hero.btn-outline {
   background: none;
   border: 1px solid white;
 }
-/********************************/
-/*       Slides backgrounds     */
-/********************************/
-.fade-carousel .slides .slide-1,
-.fade-carousel .slides .slide-2,
-.fade-carousel .slides .slide-3 {
-  height: 77vh;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-}
-.fade-carousel .slides .slide-1 {
-  background-image: url("/img/slide-background.png");
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-}
-.fade-carousel .slides .slide-2 {
-  background-image: url("/img/slide-background.png");
-}
-.fade-carousel .slides .slide-3 {
-  background-image: url("/img/slide-background.png");
-}
-/********************************/
-/*          Media Queries       */
-/********************************/
-@media screen and (min-width: 980px) {
-  .hero {
-    width: 1800px;
-  }
-}
-@media screen and (max-width: 640px) {
-  .hero h1 {
-    font-size: 4em;
-  }
+#btnTrigger {
+  display: none;
 }
 /********************************/
 /*          Four Icons          */
