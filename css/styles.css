@@ -274,7 +274,7 @@ ul.dropdown-cart li .item-right button {
   background-color: transparent;
   border-radius: 3px;
   display: inline-block;
-  font-family: "PT Sans";
+  font-family: "Open Sans";
   font-size: 20px;
   font-weight: bold;
   letter-spacing: 3px;
@@ -338,7 +338,7 @@ ul.dropdown-cart li .item-right button {
 .tab-products .product .thumbnail .caption {
   padding-bottom: 0px;
   padding-left: 20px;
-  font-family: "PT Sans";
+  font-family: "Open Sans";
   font-size: 17px;
 }
 .tab-products .product .thumbnail .caption a {
@@ -495,13 +495,13 @@ ul.dropdown-cart li .item-right button {
   font-size: 22px;
 }
 .latest-news .new .thumbnail .date-widget h5 {
-  font-family: "PT Sans";
+  font-family: "Open Sans";
   margin-bottom: 0px;
 }
 .latest-news .new .thumbnail .caption {
   padding-bottom: 20px;
   padding-left: 20px;
-  font-family: "PT Sans";
+  font-family: "Open Sans";
   font-size: 17px;
 }
 .latest-news .new .thumbnail .caption h4 {
@@ -512,18 +512,18 @@ ul.dropdown-cart li .item-right button {
   margin-bottom: 15px;
 }
 .latest-news .new .thumbnail .caption h5 {
-  font-family: 'PT Sans';
+  font-family: 'Open Sans';
   color: #969696;
 }
 .latest-news .new .thumbnail .caption p {
-  font-family: 'PT Sans';
+  font-family: 'Open Sans';
   font-size: 14px;
   color: black;
   opacity: 0.7;
   margin-bottom: 20px;
 }
 .latest-news .new .thumbnail .caption a {
-  font-family: 'PT Sans';
+  font-family: 'Open Sans';
   font-size: 14px;
   color: black;
 }
